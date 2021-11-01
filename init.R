@@ -1,4 +1,5 @@
-my_packages = c("dplyr", "DT")
+my_packages = c("dplyr", "DT","lubridate","tidyr","shinymanager","scrypt",
+                "RMySQL","htmltools","shinythemes")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
